@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(img/pexels-niezam-16516.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    color: red;
+    padding: 12px;
+    background-color: black;
+}
+
+header img {
+    width: 110px;
+    height: 70px;
+}
+
+header h1 {
+    padding-left: 5%;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    padding: 0 8%;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 16px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    padding: 14px 20px;
+    
+    
+}
+
+.menu a:hover {
+    background-color: #575756;
+    border-radius: 8px;
+}
+
+main {
+    margin-left: 2%;
+}
+
+main .content {
+    margin: 32px;
+    padding: 22px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    width: 420px;
+    background-color: #333;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+main .content h1, p {
+    padding: 12px;
+    font-weight: 600;
+}
+
+.work {
+    color: red;
+    font-weight: 200;
+}
+
+.galery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+    background-color: #575756;
+    margin-top: auto;
+}
+
+.galery h1 {
+    padding: 0 22px 4px 22px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid red;
+}
+
+.galery-content {
+    display: flex;
+
+}
+
+.arts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 280px;
+    margin: 20px;
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 20px 0px;
+    background-color: #575756;
+    opacity: 0.95;
+    box-shadow: #333 0 0 12px;
+}
+
+.container h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding: 4px 16px;
+    border-bottom: 2px solid red;
+    text-shadow: #333 0 0 12px;
+}
+
+.container p {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 28px 32px;
+    max-width: 1000px;
+}
+
+.up-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: fixed;
+    text-align: center;
+    right: 28px;
+    bottom: 28px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffffc7;
+}
+
+.up-home a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 62px;
+    color: red;
+}
+
+footer {
+    font-family: monospace;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 22px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 890px) {
+    .arts {
+        width: 120px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 638px) {
+
+    main {
+        align-self: center;
+        
+    }
+
+    main .content {
+        font-size: 18px;
+        width: 340px;
+    }
+
+    .galery-content {
+        flex-direction: column;
+    }
+
+    .arts {
+        width: 180px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    main .content {
+        font-size: 16px;
+        width: 280px;
+    }
+
+    .menu {
+        padding:  0 0;
+    }
+}
