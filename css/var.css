@@ -1,0 +1,17 @@
+:root {
+    --dark_pri: #000;
+    --dark_seg: #333;
+    --dark_ter: #575756;
+    --dark_qua: #fff;
+    --color_def: #ff0000;
+
+    --art_wi: ;
+}
+
+.light:root {
+    --dark_pri: #fff;
+    --dark_seg: #cdcdcd;
+    --dark_ter: #eaeaea;
+    --dark_qua: #000;
+    --color_def: #ff0000;
+}
