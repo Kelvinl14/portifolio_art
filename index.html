@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="dark" id="theme">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/var.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4b655550e9.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Art</title>
 </head>
 <body>
     <header id="home">
         <img src="img/logo.png" alt="">
         <h1>Profile Art</h1>
+        <button onclick="dark_light()"><i class="fa-solid fa-sun" id="toggle"></i></button>
     </header>
     <div class="menu">
         <nav>
@@ -25,37 +27,42 @@
 
     <main>
         <div class="content">
-            <h1>My name is Orlando</h1>
+            <h1>Meu nome é Orlando</h1>
             <p class="work">Designer</p>
-            <p>I work with realism, caricatures, anime and cartoon styles, among others. I also create graphic designs for websites, Instagram and Facebook posts, logo designs, etc. </p>
+            <p>Trabalho com realismo, caricaturas, estilos de anime e cartoon, entre outros. Também crio designs gráficos para sites, postagens no Instagram e Facebook, além de logotipos, etc. </p>
         </div>
     </main>
 
     <div class="galery" id="galery">
         <h1>My Preview Galery</h1>
         <div class="galery-content">
-            <div class="arts">
-                <p>A</p>
+            <div class="arts art01">
+                
             </div>
-            <div class="arts">
-                <p>B</p>
+            <div class="arts art02">
             </div>
-            <div class="arts">
-                <p>C</p>
+            <div class="arts art03">
+                
             </div>
-            <div class="arts">
-                <p>D</p>
+            <div class="arts art04">
+                
             </div>
         </div>
     </div>
 
     <div class="container about" id="about">
         <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, accusamus asperiores voluptatum delectus nam corrupti libero minus numquam perferendis accusantium molestiae quod quisquam laudantium culpa minima repudiandae dolores laborum nesciunt!</p>
+        <p>Olá, sou o Orlando, um artista que está começando a trilhar o caminho no mundo do desenho, e quero compartilhar um pouco do meu trabalho e da minha paixão. Hoje, estou me dedicando a desenvolver minhas habilidades em várias áreas do desenho, como o realismo, as caricaturas e outros estilos que me desafiam a crescer como artista. </p>
     </div>
     <div class="container contatc" id="contatc">
         <h1>Contatc</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis a ipsa officiis cum rem aspernatur maiores, velit repudiandae voluptate praesentium, iste dolores quaerat, officia voluptatibus distinctio dolorem? Ab, laborum earum.</p>
+        <ul>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"></i> Pinterest</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> Linkedln</a></li>
+            <li><a href="tel:+"><i class="fa-solid fa-phone"></i> Telefone</a></li>
+            <li><a href="mailto:"><i class="fa-solid fa-envelope"></i> Email</a></li>
+        </ul>
     </div>
 
     <div class="up-home">
@@ -65,5 +72,6 @@
     <footer>
         <h4>Developer by Kelvyn ©</h4>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
